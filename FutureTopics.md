@@ -1,0 +1,28 @@
+- Code for my TI84 Calculator (TIBasic)
+- Excel Tetris
+- Wordel inside Excel
+- 2 line Global Positioning
+- Static File format
+- Render Engine facts
+- Sound engine facts
+- WifiLogger
+    - Overide Printing
+    - Chatoyancy 
+    - Asynchronous Input
+- Linux UI Opinions
+- QT
+- Javascript hate
+- Micro controllers
+- Optimization
+- Linux Commands
+    - `minimodem`
+    - `htop`
+    - `cowsay`
+- Pizza Math
+- Expo
+- Barcodes
+- NAS
+- Assembly
+- Raid Configs
+- Subnet Mask and Default Gateway
+- Ram crysis of Q4 '25
