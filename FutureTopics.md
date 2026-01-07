@@ -26,3 +26,4 @@
 - Raid Configs
 - Subnet Mask and Default Gateway
 - Ram crysis of Q4 '25
+- Zerotier
