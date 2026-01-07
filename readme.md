@@ -36,3 +36,32 @@ There's alot more IP stuff i could talk about, did you know that the Internet is
 But anywho i have 365 days to write so i'll save stuff for later.
 
 Thanks for reading, and I hope your 2026 is going better than the americans.
+
+## Day 7 - More IP Stuff
+Before I start Today's entry, let me just get it out there, most days wont be as long as yesterday's
+
+With that out the way, lets talk about Transportation of information. How does your computer get information from another computer? <br>
+lets take it step by step <br>
+1. Your Device sends a request to a specific IP address
+2. The request is sent to whatever device you are using to connect to the internet, maybe its the router via wifi, or a switch via ethernet cable whatever it may be eventually
+3. The request is sent upstream until it hits a device that can route IPs, for simplicity we'll say it hits your router
+4. The router checks if the IP is inside your house (Private IP) or outside (Public IP)
+5. If its private the router sends the request to the device otherwise
+6. The router sends the request upstream to your ISP, note: it doesnt immediately go to the ISP, and has to go through multiple devices set up by ur ISP first.
+7. The ISP will check alot, but for traviling sake they will check:
+    1. Is the Destination IP on the same ISP?
+    2. Is the Destination IP in the country?
+8. After that it will either send the data to the destination on there own lines or send it to another ISP to diliver it
+9. The data is now traveling the world, going above poles and large savanas, under deep seas no man has faced, over mountains, between the stars, until it reaches your destination
+10. The Destination IP will get that request, process it and send back the data following steps 5-9 in reverse
+11. The data gets to your router, and the router send it to the correct device, Your device
+12. You enjoy your 8k tenticle anime
+
+And also all of this happens in milliseconds, crazy
+
+Also, if you wonder how a router knows if an IP is private or public, its actually because of 2 more numbers that you may have seen if you ever tired making your ip static, the *subnet mask* and the *gateway* <br>
+The gateway is the simplest to understand, its litterally the IP of the router and also the first IP on your network, theres a good chance your gateway is `192.168.0.1` <br>
+The subnet mask is a bit more complicated, its like a reverse binary something, complicated math nerd stuff, it basically tells the router how many devices CAN be on the network, remember how i said most ISPs only give 254? well then the subnet mask has to be `255.255.255.0`, 
+A mask like `255.255.252.0` would allow for 1022 devices on the network<br>
+
+How does that work? i cant be bothered to explain, i typed enough lol. See you tomorrow
