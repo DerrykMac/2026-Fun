@@ -65,3 +65,21 @@ The subnet mask is a bit more complicated, its like a reverse binary something, 
 A mask like `255.255.252.0` would allow for 1022 devices on the network<br>
 
 How does that work? i cant be bothered to explain, i typed enough lol. See you tomorrow
+
+## Day 8 - The Web is not the Internet
+What i described yesterday was how the internet works, but what about the web? <br>
+Well A quick explanation of the web is basically a bunch of books that are stored on computers that other computers can read
+
+Web 1.0 was really just that simple. Computer1 (the sever) had a website (which was just a bunch of text) and computer2 (the client) would request to see that website, via the internet, and computer1 would send the text as a file (typically HTML) to computer2 which its then formatted using a web browser (chrome, explorer, firefox, etc)
+
+Modern day websites have more client server talking going on, but typically its, client ask for something, server sends it back. <br>
+All of this is done under the HTTP/HTTPS protocols (the extra S just means its encrypted) <br>
+HyperText Transfer Protocol is the set of rules most websites like to talk to each other with, theres other protocols like FTP or SMTP and i aint going into them lol.
+
+Also, when a HTTP request is sent, it is given back with a code, 200 means all is good but there's error codes, one you may know is 404, which means the file isnt found. <br>
+theres also 403 which means you aint suppost to have that.
+
+Cool rule of thumb for thoses codes, if it stats with a 4 **YOU** messed up, if it starts with a 5 **THEY** messed up.
+
+Yea thats all for today lol, getting tired of internet stuff, imma try move on tomorrow
+
