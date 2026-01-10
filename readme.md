@@ -83,3 +83,6 @@ Cool rule of thumb for thoses codes, if it stats with a 4 **YOU** messed up, if 
 
 Yea thats all for today lol, getting tired of internet stuff, imma try move on tomorrow
 
+## Day 9 - PC
+
+FunFact: The term PC came from IBM's "Personal Computer" brand, yea PC was a brand name but everyone just called everything a PC, and now we are here.
