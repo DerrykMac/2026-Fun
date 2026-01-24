@@ -90,3 +90,10 @@ FunFact: The term PC came from IBM's "Personal Computer" brand, yea PC was a bra
 ## Day 14 - Speakers
 My speakers have gotten so bad that my phone is both louder and better quality than my PC speakers. 💀
 
+## Day 24 - Nvidia Sucks 1
+Busy week :) <br>
+No excuse thou, but I dont feel like writing much today so i'll leave you with this:
+
+I use linux, Nvidia sucks, there support for linux is next to none, which is weird cuz they're so AI focus rn and most datacenters USE LINUX!
+
+anywho, have a good day, see you in like 50 days or something lol.

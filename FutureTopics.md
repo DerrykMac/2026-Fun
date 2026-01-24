@@ -27,3 +27,5 @@
 - Subnet Mask and Default Gateway
 - Ram crysis of Q4 '25
 - Zerotier
+- Atari kinda just, INVENTED Consoles
+- MS-DOS vs PC-DOS
