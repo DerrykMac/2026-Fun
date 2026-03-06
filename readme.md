@@ -97,3 +97,24 @@ No excuse thou, but I dont feel like writing much today so i'll leave you with t
 I use linux, Nvidia sucks, there support for linux is next to none, which is weird cuz they're so AI focus rn and most datacenters USE LINUX!
 
 anywho, have a good day, see you in like 50 days or something lol.
+
+## Day 64 - Hu??
+Damn where February go? 
+anywho heres code to print in color
+C++:
+```cpp
+std::string ColorText(const std::string& text, int R, int G, int B) {
+    return "\033[38;2;" + std::to_string(R) + ";" + std::to_string(G) + ";" + std::to_string(B) + "m" + text + "\033[0m";
+}
+```
+C:
+```c
+char* ColorText(const char* text, int R, int G, int B) {
+    static char buffer[1024];
+    snprintf(buffer, sizeof(buffer), "\033[38;2;%d;%d;%dm%s\033[0m", R, G, B, text);
+    return buffer;
+}
+```
+I would write it in other languages but i can't be bothered
+
+See you Day 100 lol
